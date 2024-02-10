@@ -1,0 +1,7 @@
+const s3Client = new S3Client({
+    region: 'ap-south-1',
+    credentials: {
+        accessKeyId: 'AKIAYYF2GNMBSPN332HQ',
+        secretAccessKey: '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'
+    }
+})

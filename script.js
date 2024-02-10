@@ -10,10 +10,10 @@ const Redis = require('ioredis')
 
 
 const s3Client = new S3Client({
-    region: 'ap-south-1',
+    region: '',
     credentials: {
-        accessKeyId: 'AKIAYYF2GNMBSPN332HQ',
-        secretAccessKey: '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'
+        accessKeyId: '',
+        secretAccessKey: ''
     }
 })
 
